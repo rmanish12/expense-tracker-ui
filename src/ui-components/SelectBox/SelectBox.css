@@ -1,0 +1,27 @@
+.select-label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.select-box {
+  margin-top: 2px;
+  height: 43px;
+  position: relative;
+  width: 100%;
+  padding: 12px;
+}
+
+.select-box-error {
+  border: 2px solid red;
+}
+
+.select-label-error {
+  font-size: 10px;
+  color: red;
+  margin-top: 2px;
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}

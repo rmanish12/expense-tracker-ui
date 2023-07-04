@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Box, CssBaseline } from "@mui/material";
 import { LOCALES } from "./i18n/locales";
 import { messages } from "./i18n/messages";
-import Test from "./Test";
+import Shell from "./pages/shell";
 
 const App = () => {
   const [locale, setLocale] = useState(LOCALES.ENGLISH);
@@ -20,9 +20,9 @@ const App = () => {
       defaultLocale={LOCALES.ENGLISH}
     >
       <BrowserRouter>
-        <Box>
+        <Box id="App" sx={{ height: "100vh", backgroundColor: "aliceblue" }}>
           <CssBaseline />
-          <Test changeLocale={changeLocale} />
+          <Shell changeLocale={changeLocale} />
         </Box>
       </BrowserRouter>
     </IntlProvider>

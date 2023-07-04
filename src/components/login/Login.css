@@ -1,0 +1,21 @@
+.login-form-box {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.password-field {
+  margin-top: 16px;
+  display: flex;
+}
+
+.password-icon {
+  margin: 35px 0 0 8px;
+  cursor: pointer;
+}
+
+.create-account-msg {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 16px !important;
+}

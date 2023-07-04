@@ -1,0 +1,51 @@
+.button {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #dddddd;
+  border: 2px solid #dddddd;
+  color: black;
+}
+
+.button:disabled:hover {
+  background-color: #dddddd;
+  border: 2px solid #dddddd;
+  color: black;
+  cursor: default;
+}
+
+.success {
+  background-color: #28a745;
+  border: 2px solid #28a745;
+}
+
+.success:hover {
+  color: #28a745;
+  background-color: white;
+}
+
+.error {
+  background-color: #dc4c64;
+  border-radius: 2px solid #dc4c64;
+}
+
+.error:hover {
+  color: #dc4c64;
+  background-color: white;
+}
+
+.warning {
+  background-color: #E3A11B;
+  border-radius: 2px solid #E3A11B;
+}
+
+.warning:hover {
+  color: #E3A11B;
+  background-color: white;
+}

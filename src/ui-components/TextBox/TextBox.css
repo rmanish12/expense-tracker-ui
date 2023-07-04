@@ -1,0 +1,26 @@
+.input-label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 2px;
+  padding: 12px;
+}
+
+.input-box-error {
+  border: 2px solid red;
+}
+
+.input-label-error {
+  font-size: 10px;
+  color: red;
+  margin-top: 2px;
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}
